@@ -27,7 +27,7 @@ import net.minecraft.network.chat.Component;
 import java.util.Random;
 
 
-@Mod.EventBusSubscriber(modid = "yourmodid", bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = "unknownapplemod", bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class RaidManager {
 
     private static ServerBossEvent bossBar = new ServerBossEvent(
