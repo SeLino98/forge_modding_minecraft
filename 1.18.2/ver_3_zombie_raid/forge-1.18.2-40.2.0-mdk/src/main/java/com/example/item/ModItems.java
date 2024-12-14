@@ -15,7 +15,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
 
-    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("unknown_apple",
+    public static final RegistryObject<Item> UNKNOWNAPPLE = ITEMS.register("unknown_apple", //아이템을 추가
             () -> new Item(new Item.Properties().food(ModFoods.UNKNOWNAPPLE)));
 
 
